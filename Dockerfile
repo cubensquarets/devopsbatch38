@@ -6,3 +6,4 @@ run apt install nano -y
 run apt install net-tools -y
 run apt install python3 -y
 copy index.html /usr/share/nginx/html/
+cmd ['/bin/sh', 'python.py']
