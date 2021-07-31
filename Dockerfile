@@ -1,4 +1,5 @@
 from nginx
+add index.html /usr
 run apt update
 run apt install vim -y
 run apt install nano -y
